@@ -1,0 +1,8 @@
+a = 1
+b = 2
+print("Переменные a и b - ", a, b)
+string1 = input("Введите ваше имя ")
+number1 = int(input("Сколько вам лет "))
+string2 = input("Введите имя вашей собаки ")
+number2 = int(input("Сколько лет собаке "))
+print("Данные, собранные по вам - %10s %5d %10s %5d" % (string1, number1, string2, number2))
